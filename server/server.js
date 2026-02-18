@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config({ path: './config.env' });
+
 import express from 'express';
 import cors from 'cors';
 import records from "./routes/record.js";
