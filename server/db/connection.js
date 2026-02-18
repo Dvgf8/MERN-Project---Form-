@@ -1,6 +1,3 @@
-import dotenv from "dotenv";
-dotenv.config({ path: "../../config.env" });
-
 import { MongoClient, ServerApiVersion } from "mongodb";
 
 const url = process.env.ATLAS_URL || process.env.ATLAS_URI || "";
