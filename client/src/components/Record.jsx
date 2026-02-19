@@ -79,13 +79,13 @@ export default function Record() {
 
     return (
         <>
-            <h3 className="text-lg font-semibold p-4">Create/Update Employee Record</h3>
+            <h3 className="text-lg font-semibold p-4 mx-2.5">Create/Update Employee Record</h3>
             <form
                 onSubmit={onSubmit}
-                className="border rounded-lg overflow-hidden p-4"
+                className="border rounded-lg overflow-hidden p-4 mx-6"
             >
-                <div className="grid grid-cols-1 gap-x-8 gap-y-10 border-b
-                border-slate-900/10 pb-12 md:grid-cols-2">
+                <div className="grid grid-cols-2 gap-x-8 gap-y-10 border-b
+                border-slate-900/10 pb-12 md:grid-cols-1">
                     <div>
                         <h2 className="text-base font-semibold leading-7 text-slate-900">
                             Employee Information    

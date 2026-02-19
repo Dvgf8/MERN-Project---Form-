@@ -67,8 +67,8 @@ export default function RecordList() {
 
     return (
         <>
-            <h3 className="text-lg font-semibold p-4">Employee Records</h3>
-            <div className="border rounded-lg overflow-hidden">
+            <h3 className="text-lg font-semibold p-4 mx-2.5">Employee Records</h3>
+            <div className="border rounded-lg overflow-hidden mx-6">
                 <div className="relative w-full overflow-auto">
                     <table className="w-full caption-bottom text-sm">
                         <thead className="[&amp;_tr]:border-b">
